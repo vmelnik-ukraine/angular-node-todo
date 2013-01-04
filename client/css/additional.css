@@ -1,0 +1,47 @@
+/* Clearfix for floating blocks*/
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/* Uppercase text */
+.uppercase{
+    text-transform: uppercase;
+}
+/* Lowercase text */
+.lowercase{
+    text-transform: lowercase;
+}
+.center{
+    text-align: center;
+}
+.block-center{
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    float: none;
+}
+.media img{
+    margin: 10px;
+}
+.media img.pull-left{
+    margin: 0 10px 10px 0;
+}
+.media img.pull-right{
+    margin: 0 0 10px 10px;
+}
+.media, .media .media {
+    margin-top: 0;
+}
+.word-wrap{
+    word-wrap: break-word;
+}

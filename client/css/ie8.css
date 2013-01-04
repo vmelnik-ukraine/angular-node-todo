@@ -1,0 +1,10 @@
+/* bootstrap fixes*/
+.nav-collapse.collapse{
+    overflow: visible;
+}
+.row-fluid [class*='span']{
+    min-height: 20px;
+}
+[class^='icon-']{
+    vertical-align: top;
+}
